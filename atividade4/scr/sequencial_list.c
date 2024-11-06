@@ -14,6 +14,7 @@ void insert_element(slist *list, int element) {
   list->size++;
 }
 
+
 void print_list(slist *list) {
   for (int i = 0; i < list->size; i++) {
     printf("%d ", list->data[i]);

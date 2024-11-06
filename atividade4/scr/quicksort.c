@@ -16,6 +16,7 @@ int partition(slist *list, int start, int end) {
   // Troca o pivô com a posição inicial
   swap(list, pivot, start);
 
+
   // Ordena a partição
   int element = list->data[start];
   int i = start + 1;

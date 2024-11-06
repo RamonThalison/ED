@@ -13,6 +13,7 @@ void merge(int arr[], int left, int mid, int right) {
     for (int j = 0; j < n2; j++)
         R[j] = arr[mid + 1 + j];
 
+
     int i = 0;  // Índice inicial do primeiro subarray
     int j = 0;  // Índice inicial do segundo subarray
     int k = left; // Índice inicial do subarray mesclado

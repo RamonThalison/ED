@@ -8,7 +8,7 @@ lista criarLista() {
     l.tamanho = 0;
     l.comeco = NULL;
     return l;
-}
+} 
 
 // Verifica se a lista está vazia
 void verificarLista(lista l) {

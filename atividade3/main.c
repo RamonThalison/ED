@@ -14,6 +14,7 @@ typedef struct No {
     struct No* prox;
 } No;
 
+
 // Estrutura do Grafo usando Matriz de Adjacência
 typedef struct {
     int num_vertices;

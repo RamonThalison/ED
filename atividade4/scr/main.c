@@ -13,6 +13,7 @@ void quicksort_np() {
     quicksort(numbers, 0, numbers->size - 1);
 }
 
+
 void mergesort_np() {
     mergeSort(array_numbers, 0, numbers->size - 1);
 }
